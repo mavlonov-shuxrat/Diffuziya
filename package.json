@@ -1,0 +1,23 @@
+{
+  "name": "diffuziya",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://mavlonov-shuxrat.github.io/Diffuziya/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+
+  },
+  "dependencies": {
+    "p5": "^2.0.5",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7",
+    "gh-pages": "^5.0.0"
+  }
+}
